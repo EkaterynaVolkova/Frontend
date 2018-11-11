@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form</title>
+</head>
+<body>
+<form action="" method="POST">
+  <fieldset>
+    <legend>Personal information:</legend>
+    <p><label for="firstname">First name: </label></p>
+    <input type="text" id="firstname" name="firstname" placeholder="Mickey">
+    <p><label for="lastname">Last name: </label></p>
+    <input type="text" id="lastname" name="lastname" placeholder="Mouse">
+    <p>
+      <label for="male">Male: </label>
+      <input type="radio" id="male" name="gender" value="male" checked>
+      <label for="female">Female: </label>
+      <input type="radio" id="female" name="gender" value="female">
+    </p>
+    <p><label for="email">Email: </label></p>
+    <input type="email" id="email" name="email" placeholder="test@gmail.com">
+    <p><label for="age">Age:</label></p>
+    <input type="number" id="age" name="age" min="1" max="150">
+    <p><label for="burthday">Burthday: </label></p>
+    <input type="date" id="burthday" name="burthday">
+    <p><label for="country">Country</label></p>
+    <select id="country" name="country">
+      <option>Ukraine</option>
+      <option>China</option>
+      <option>India</option>
+      <option>United States</option>
+      <option>Indonesia</option>
+      <option>Brazil</option>
+    </select>
+    <p><label for="color">Favourite color</label></p>
+    <input type="color" id="color" name="color"
+           value="#f6b73c">
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+</body>
+</html>
