@@ -1,0 +1,48 @@
+body {
+    background: black;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    top: 20%;
+    left: calc(50% - 120px);
+    background:  white;
+    font-weight: bold;
+    margin: 200px auto;
+    padding: 10px 60px;
+    font-family: Verdana, sans-serif
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2px 0;
+}
+
+.first-row div{
+    font-size: 100px;
+}
+
+.second-row div{
+    font-size: 60px;
+}
+
+.third-row div{
+    font-size: 40px;
+}
+
+.fourth-row div{
+    font-size: 25px;
+}
+
+.fifth-row div{
+    font-size: 25px;
+}
+
+.sixth-row div{
+    font-size: 15px;
+}
