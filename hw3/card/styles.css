@@ -22,25 +22,161 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.photo-title{
+    color: white;
+    font-size: 48px;
+    padding: 30px;
+}
+
+.photo{
+    width: 270px;
+    height: 270px;
+    border: 1px solid grey;
 }
 
 .icons {
+    display:flex;
+    flex-direction: row;
     flex: 1;
     border: 1px solid grey;
+}
+
+.icon {
+    flex: 1;
+    background-color: red;
+    border: 1px solid lightgrey;
 }
 
 .messages {
     flex: 1;
     border: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    background: white;
+}
+
+.message {
+    flex: 1;
+    font-size: 28px;
+    text-align: center;
+    line-height: 100px;
+    color: red;
+}
+
+.profiles {
+    flex: 1;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    background: white;
 }
 
 .profile {
     flex: 1;
-    border: 1px solid grey;
+    font-size: 28px;
+    text-align: center;
+    line-height: 100px;
+    color: red;
 }
 
-.photo{
-    width: 300px;
-    height: 350px;
+/*card two*/
+
+.card-two{
+    width: 800px;
+    height: 700px;
     border: 1px solid grey;
+    margin: 0 auto;
+    background: lightblue;
+}
+
+.inner-card-two{
+    width: 700px;
+    height: 600px;
+    margin: 50px auto 0;
+    display: flex;
+    flex-direction: column;
+    background: royalblue;
+    border-radius: 30px;
+}
+
+
+.photo-block-two {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.photo-two {
+    flex: 1;
+}
+
+.photo-title-two, .photo-two {
+    flex: 1;
+    font-size: 48px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.photo-title-two{
+    align-items: start;
+}
+
+.photo-two {
+    align-items: center;
+}
+
+.photo-two .photo {
+   width: 150px;
+   height: 150px;
+   background: blue;
+   border-radius: 50%;
+   border: 3px solid white;
+   margin: 5px;
+}
+
+.data {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+.data .icons {
+    flex: 1;
+    padding: 50px;
+    border: none;
+}
+.data .icon {
+    background-color: #eae8e8;
+    border: 2px solid white;
+    color: grey;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.data .button {
+    flex: 1;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: red;
+    width: 60%;
+    height: 50px;
+    color: white;
+    border-radius: 15px;
+    font-size: 30px;
 }
